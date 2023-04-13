@@ -1,0 +1,28 @@
+@import './base.css';
+
+.btn-primary{
+  background: linear-gradient(95.34deg, #2297EB -10.53%, #9B57D6 117.01%);
+}
+.btn-disabled{
+  background: #ddd;
+  color: #777;
+  opacity: 0.5;
+  
+}
+.router-link-exact-active  {
+  color: black;
+}
+
+
+.router-link-exact-active:hover {
+  background-color: transparent;
+}
+.router-link-active  {
+  color: black;
+}
+
+
+.router-link-active:hover {
+  background-color: transparent;
+}
+
