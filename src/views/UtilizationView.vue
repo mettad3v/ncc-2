@@ -362,7 +362,7 @@ const predict = async () => {
 
     const allRequests = Promise.all(requests)
     try {
-        const allResponses = await allRequests;
+        const allResponses: any = await allRequests;
         isModalOpen.value = true
 
 
